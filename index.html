@@ -76,20 +76,20 @@
             <div class="card w-100 h-100" style="background-color: rgba(0, 0, 0, 0.368);">
                 <div class="col-12 m-auto">
                     <div class="row">
-                        <div class="col-8 mx-auto">
+                        <div class="col-md-8 mx-auto">
                             <div class="col-12 text-center">
                                 <div class="card mx-auto rounded-circle" style="width: 120px;height: 120px;">
                                     <img src="/assets/images/favicon/favicon.png" class="w-100" alt="">
                                 </div>
                             </div>
-                            <div class="col-12 mb-3 text-center">
+                            <div class="col-12 px-2 px-lg-0 mb-3 text-center">
                                 <h1 class="display-1 fw-bold text-light">Hi, I am <span class="text-success">Joseph
                                         Bieber</span></h1>
                                 <p class="fs-4" style="line-height: 35px;">I am a frontend web developer. I can provide
                                     clean code and pixel perfect design. I also make website more & more interactive
                                     with web animations.</p>
                             </div>
-                            <div class="col-6 mx-auto">
+                            <div class="col-md-6 mx-auto">
                                 <div class="row justify-content-center">
                                     <div class="col-2">
                                         <a class="btn btn--bordered btn--white p-0 text-center"
@@ -131,22 +131,25 @@
                 </div>
             </div>
         </div>
-        <section class="bg-dark">
+        <section class="bg-dark" id="about">
             <div class="card bg-transparent border-0">
-                <h1 class="position-absolute end-0 top-0" style="font-size: 8rem;">About Me</h1>
+                <h1 class="position-absolute end-0 top-0 d-lg-block d-none" style="font-size: 8rem;">About Me</h1>
+                <h1 class="position-absolute end-0 top-0 d-lg-none" style="font-size: 6rem;opacity: 0.3;">About Me</h1>
             </div>
             <div class="container">
-                <div class="col-12 text-center">
+                <div class="col-12 mb-3 text-center bg-transparent border-0 card" style="z-index: 9;">
                     <h1 class="text-light">About Me</h1>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-transparent border-0">
+                            <img src="https://dummyimage.com/600x400/000/fff" alt="">
+                        </div>
                     </div>
-                    <div class="col-md-6 my-auto">
+                    <div class="col-md-6 p-3 my-auto">
                         <h3 class="text-light fw-bold text-light">Hi, I am <span class="text-success">Joseph Bieber</h3>
                         <div class="row mb-4">
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> First Name </div></h6>
@@ -155,7 +158,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> Last Name </div></h6>
@@ -164,7 +167,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> Age </div></h6>
@@ -173,7 +176,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> Nationality </div></h6>
@@ -182,7 +185,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> Languages </div></h6>
@@ -191,7 +194,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> Address </div></h6>
@@ -200,7 +203,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8">
+                            <div class="col-md-8">
                                 <div class="row">
                                     <div class="col-4">
                                         <p class="fs-6 mb-0 text-light"><i class="fas fa-circle small text-success pe-2"></i> Designation </div></h6>
@@ -215,16 +218,17 @@
                 </div>
             </div>
         </section>
-        <section class="bg-dark py-5">
+        <section class="bg-dark py-5" id="about">
             <div class="card bg-transparent border-0">
-                <h1 class="position-absolute end-0 top-0" style="font-size: 8rem;">My Skills</h1>
+                <h1 class="position-absolute end-0 top-0 d-lg-block d-none" style="font-size: 8rem;">My Skills</h1>
+                <h1 class="position-absolute  top-0 d-lg-none" style="font-size: 6rem;opacity: 0.3;right:20px">My Skills</h1>
             </div>
             <div class="container">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center bg-transparent border-0 card mb-5">
                     <h1 class="text-light">My Skills</h1>
                 </div>
-                <div class="row py-5">
-                    <div class="col-md-3">
+                <div class="row py-lg-5">
+                    <div class="col-md-3 mb-4">
                         <div class="circleprogress card p-4 text-center" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <div class="mb-4 inline-block">
                                 <svg class="circle" width="120" height="120" viewBox="0 0 120 120">
@@ -236,7 +240,7 @@
                             <h5 class="text-light">UI/UX Design</h5>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-4">
                         <div class="circleprogress card p-4 text-center" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <div class="mb-4 inline-block">
                                 <svg class="circle" width="120" height="120" viewBox="0 0 120 120"><circle class="circlebg" cx="60" cy="60" r="54" pathLength="1" stroke-linecap="round" stroke-width="12"></circle><circle cx="60" cy="60" r="54" stroke-linecap="round" stroke-width="12" opacity="1" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="0.8px 1px"></circle></svg>
@@ -245,7 +249,7 @@
                             <h5 class="text-light">UI/UX Design</h5>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-4">
                         <div class="circleprogress card p-4 text-center" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <div class="mb-4 inline-block">
                                 <svg class="circle" width="120" height="120" viewBox="0 0 120 120"><circle class="circlebg" cx="60" cy="60" r="54" pathLength="1" stroke-linecap="round" stroke-width="12"></circle><circle cx="60" cy="60" r="54" stroke-linecap="round" stroke-width="12" opacity="1" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="0.8px 1px"></circle></svg>
@@ -254,7 +258,7 @@
                             <h5 class="text-light">UI/UX Design</h5>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mb-4">
                         <div class="circleprogress card p-4 text-center" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <div class="mb-4 inline-block">
                                 <svg class="circle" width="120" height="120" viewBox="0 0 120 120"><circle class="circlebg" cx="60" cy="60" r="54" pathLength="1" stroke-linecap="round" stroke-width="12"></circle><circle cx="60" cy="60" r="54" stroke-linecap="round" stroke-width="12" opacity="1" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="0.8px 1px"></circle></svg>
@@ -306,18 +310,19 @@
         </section>
         <section class="bg-dark py-5">
             <div class="card bg-transparent border-0">
-                <h1 class="position-absolute end-0 top-0" style="font-size: 8rem;">Resume</h1>
+                <h1 class="position-absolute end-0 top-0 d-lg-block d-none" style="font-size: 8rem;">Resume</h1>
+                <h1 class="position-absolute top-0 d-lg-none" style="font-size: 6rem;right:40px;">Resume</h1>
             </div>
             <div class="container">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center card border-0 bg-transparent mb-5">
                     <h1 class="text-light">My Resume</h1>
                 </div>
-                <div class="row py-5">
-                    <div class="col-md-6 pe-5">
+                <div class="row py-lg-5">
+                    <div class="col-md-6 pe-5 mb-4">
                         <p class="text-light fs-4 mb-4"><i class="fas fa-book pe-2" style="color: #72E2AE;"></i> Education Qualification</p>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
@@ -329,7 +334,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
@@ -341,13 +346,13 @@
                         </div>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
                                     <p class="text-success font-weight-bold fs-5">Higher School Graduation</p>
                                     <p class="text-light mb-2">My College</p>
-                                    <p class="pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur donec gravida ullamcorper cum id. Sit viverra donec in ornare euismod.</p>
+                                    <p class="pb-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur donec gravida ullamcorper cum id. Sit viverra donec in ornare euismod.</p>
                                 </div>
                             </div>
                         </div>
@@ -356,7 +361,7 @@
                         <p class="text-light fs-4 mb-4"><i class="fas fa-briefcase pe-2" style="color: #72E2AE;"></i> Working Experience</p>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
@@ -368,7 +373,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
@@ -380,7 +385,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
@@ -392,7 +397,7 @@
                         </div>
                         <div class="row">
                             <div class="col-2">
-                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-2 px-3">2008 - 2010</span>
+                                <span class="badge badge-pill badge-sucess rounded-pill bg-secondary p-md-2 px-md-3">2008 - 2010</span>
                             </div>
                             <div class="col-10">
                                 <div class="border-start border-3 border-light ps-4">
@@ -408,13 +413,14 @@
         </section>
         <section class="bg-dark py-5">
             <div class="card bg-transparent border-0">
-                <h1 class="position-absolute end-0 top-0 pe-5" style="font-size: 8rem;">Work</h1>
+                <h1 class="position-absolute end-0 top-0 pe-5 d-lg-block d-none" style="font-size: 8rem;">Work</h1>
+                <h1 class="position-absolute top-0 pe-5 d-lg-none" style="font-size: 6rem;right:60px;opacity: 0.3;">Work</h1>
             </div>
             <div class="container">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center card bg-transparent border-0 mb-5">
                     <h1 class="text-light">My Work</h1>
                 </div>
-                <div class="row py-5">
+                <div class="row py-lg-5">
                     <div class="col-md-4 mb-4">
                         <div class="circleprogress rounded-3 card p-4" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <img class="mb-4" src="https://tf-react-bieber.vercel.app/images/portfolios/portfolio-image-lg-19.jpg" alt="">
@@ -462,13 +468,14 @@
         </section>
         <section class="bg-dark py-5">
             <div class="card bg-transparent border-0">
-                <h1 class="position-absolute end-0 top-0 pt-4 mt-1" style="font-size: 8rem;">Awards</h1>
+                <h1 class="position-absolute end-0 top-0 pt-4 mt-1 d-lg-block d-none" style="font-size: 8rem;">Awards</h1>
+                <h1 class="position-absolute top-0 pt-4 mt-4 d-lg-none" style="font-size: 6rem;right: 60px;opacity: 0.3;">Awards</h1>
             </div>
             <div class="container">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center card bg-transparent border-0 mb-5">
                     <h1 class="text-light">Awards And Achievements</h1>
                 </div>
-                <div class="row py-5">
+                <div class="row py-lg-5">
                     <div class="col-md-4 mb-4">
                         <div class="circleprogress rounded-3 card p-4" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <img class="mb-4" src="https://tf-react-bieber.vercel.app/images/portfolios/portfolio-image-lg-19.jpg" alt="">
@@ -516,34 +523,35 @@
         </section>
         <section class="bg-dark py-5">
             <div class="card bg-transparent border-0">
-                <h1 class="position-absolute end-0 top-0" style="font-size: 8rem;">Contact</h1>
+                <h1 class="position-absolute end-0 top-0 d-md-block d-none" style="font-size: 8rem;">Contact</h1>
+                <h1 class="position-absolute top-0 d-lg-none" style="font-size: 6rem;opacity: 0.3;right: 40px;">Contact</h1>
             </div>
             <div class="container">
-                <div class="col-12 text-center mb-5">
+                <div class="col-12 text-center card bg-transparent border-0 mb-5">
                     <h1 class="text-light">Contact Me</h1>
                 </div>
-                <div class="row py-5">
+                <div class="row py-lg-5">
                     <div class="col-md-12 mb-4">
                         <div class="circleprogress rounded-3 card p-4" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                             <div class="row">
-                                <div class="col-md-5">
+                                <div class="col-md-5 mb-4">
                                     <p class="text-light fs-5">Contact Information</p>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque placeat dicta eligendi, veniam, accusamus sed qui, eius minima praesentium vel</p>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="circleprogress rounded-3 mb-4 card p-4" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                                         <div class="row">
-                                            <div class="col-md-2 my-auto">
+                                            <div class="col-md-2 col-4 my-auto">
                                                 <i class="fas fa-phone-alt fs-1 text-success"></i>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 col-8 mb-3">
                                                 <p class="text-light fs-6 text-uppercase">Contact on phone</p>
                                                 <p> +012-3456-7891</p>
                                             </div>
-                                            <div class="col-md-2 my-auto">
+                                            <div class="col-md-2 col-4 my-auto">
                                                 <i class="fab fa-whatsapp fs-1 text-success"></i>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 col-8">
                                                 <p class="text-light fs-6 text-uppercase">Connect on Whatsapp</p>
                                                 <p> +012-3456-7891</p>
                                             </div>
@@ -551,10 +559,10 @@
                                     </div>
                                     <div class="circleprogress rounded-3 card p-4" style="background-color: rgba(255, 255, 255, 0.15);border-color: rgba(255, 255, 255, 0.388);">
                                         <div class="row">
-                                            <div class="col-md-2 my-auto">
+                                            <div class="col-md-2 col-4 my-auto">
                                                 <i class="fas fa-envelope fs-1 text-success"></i>
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-4 col-8">
                                                 <p class="text-light fs-6 text-uppercase">Mail me on</p>
                                                 <p> myemail@email.com</p>
                                             </div>
@@ -571,33 +579,33 @@
             <hr class="my-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-1">
+                    <div class="col-md-6 mb-3">
+                        <div class="row justify-content-md-start justify-content-center">
+                            <div class="col-md-1 col-2">
                                 <a class="btn btn--bordered btn--white p-0 text-center"
                                     style="width: 50px;height: 50px;border: 1px solid gray;padding-left: 18px !important;">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-md-1 col-2">
                                 <a class="btn btn--bordered btn--white p-0 text-center"
                                     style="width: 50px;height: 50px;border: 1px solid gray;padding-left: 18px !important;">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-md-1 col-2">
                                 <a class="btn btn--bordered btn--white p-0 text-center"
                                     style="width: 50px;height: 50px;border: 1px solid gray;padding-left: 18px !important;">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-md-1 col-2">
                                 <a class="btn btn--bordered btn--white p-0 text-center"
                                     style="width: 50px;height: 50px;border: 1px solid gray;padding-left: 18px !important;">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
-                            <div class="col-1">
+                            <div class="col-md-1 col-2">
                                 <a class="btn btn--bordered btn--white p-0 text-center"
                                     style="width: 50px;height: 50px;border: 1px solid gray;padding-left: 18px !important;">
                                     <i class="fab fa-linkedin-in"></i>
@@ -605,7 +613,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 my-auto text-end">
+                    <div class="col-md-6 my-auto text-md-end text-center">
                         <p class="text-light">© 2023, All right reservedNuclearThemes</p>
                     </div>
                 </div>
