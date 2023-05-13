@@ -2,3 +2,14 @@ header{
     background-color: transparent;
     z-index: 1;
 }
+.circleprogress .circle {
+    fill: none;
+    stroke: #72e2ae;
+    transform: rotate(-90deg);
+    /* transform: translate(var(1),var(1)) rotate(var(-90deg)) skewX(var(0)) skewY(var(0)) scaleX(var(1)) scaleY(var(1)); */
+  }
+.circleprogress .circlebg {
+    stroke: #72e2ae;
+    opacity: .2;
+}
+
