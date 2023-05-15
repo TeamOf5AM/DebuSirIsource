@@ -12,4 +12,9 @@ header{
     stroke: #72e2ae;
     opacity: .2;
 }
-
+@media only screen and (max-width: 600px) {
+    .badge-pill{
+        width: 75px !important;
+        font-size: 9px;
+    }
+  }
